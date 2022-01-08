@@ -13,6 +13,7 @@ import java.util.Date;
 @Setter
 @Getter
 public class Despesas {
+    private long id;
     private BigDecimal valor;
     private Date dataPagamento;
     private Date dataPagamentoEsperado;

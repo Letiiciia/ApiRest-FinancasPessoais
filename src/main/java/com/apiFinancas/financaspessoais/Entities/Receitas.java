@@ -12,6 +12,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 public class Receitas {
+    private Long id;
     //private double valor;
     private BigDecimal valor;
     private Date dataRecebimento;

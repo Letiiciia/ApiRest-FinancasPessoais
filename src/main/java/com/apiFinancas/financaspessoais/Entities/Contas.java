@@ -11,6 +11,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 public class Contas {
+    private long id;
     private BigDecimal saldo;
     private String tipoConta;
     private String instituicaoFinanceira;
